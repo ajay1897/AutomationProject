@@ -35,11 +35,11 @@ public class ClearTripItineraryPage {
 
   @FindBy(xpath = "//input[@placeholder='First name']")
   WebElement firstNameAdult;
-  @FindBy(xpath = "(//input[@placeholder='First name'])[1]")
+  @FindBy(xpath = "(//input[@placeholder='First name'])[2]")
   WebElement firstNameChild;
   @FindBy(xpath = "//input[@placeholder='Last name']")
   WebElement lastNameAdult;
-  @FindBy(xpath = "(//input[@placeholder='Last name'])[1]")
+  @FindBy(xpath = "(//input[@placeholder='Last name'])[2]")
   WebElement lastNameChild;
   @FindBy(xpath = "//button[contains(text(),'Continue to payment')]")
   WebElement continueToPayment;
